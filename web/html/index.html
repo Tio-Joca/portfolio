@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-
-<html lang="en-US">
+<html>
   <head>
     <title>The Joaquim Lucas Pessoa da Silva's portfolio</title>
-    <meta charset="utf-8" />
+    <meta lang="en-US" charset="utf-8" />
+    <link rel="stylesheet" href="../css/index-style.css" />
   </head>
-  <body>
+  <body id="doc">
     <header id="top">
       <h1>The Joaquim Lucas Pessoa da Silva's portfolio</h1>
       <p>
@@ -14,42 +13,47 @@
       </p>
       <ul>
         <li><a href="#about-me">About me</a></li>
+        <li><a href="#domains">Domains</a></li>
         <li><a href="#my-projects">My projects</a></li>
         <li><a href="#contact-me">Contact me</a></li>
       </ul>
       <hr />
     </header>
     <main>
-      <h2 id="about-me">About me</h2>
-      <p>
-        Hi, I'm Joaquim Lucas Pessoa da Silva. I am a computer science student
-        at FAESA colleage, 7<sup>th</sup> semester. I am 27 years old.
-      </p>
-      <p>
-        Continuously, I'm searching for opportunities to develop my hard and
-        soft skills to achieve my ambitions: to become a programmer and a FAESA
-        teacher.
-      </p>
-      <p>
-        With curiosity running through my veins, I want to be challenged, evolve
-        and learn in every situation, alone or in a team. I'm always trying to
-        understand and extract the maximum of IT tools and concepts around me.
-        I'm not satisfied simply using some tool or concept, I need to
-        understand how it works and what I can do with it.
-      </p>
-      <ul>
-        <h3>Domains</h3>
-        <li>
-          <h4>Intermediate</h4>
+      <div>
+        <h2 id="about-me">About me</h2>
+        <img id="my-photo" src="../images/my-photo.jpeg" />
+        <p>
+          Hi, I'm Joaquim Lucas Pessoa da Silva. I am a computer science student
+          at FAESA colleage, 7<sup>th</sup> semester. I am 27 years old.
+        </p>
+        <p>
+          Continuously, I'm searching for opportunities to develop my technical
+          and interpersonal skills to reach my ambitions: to become a programmer
+          and a FAESA teacher.
+        </p>
+        <p>
+          With curiosity running through my veins, I want to be challenged,
+          evolve and learn in every situation, alone or in a team. I'm always
+          trying to understand and extract the maximum of IT tools and concepts
+          around me. I'm not satisfied simply using some tool or concept, I need
+          to understand how it works and what I can do with it.
+        </p>
+      </div>
+      <hr />
+      <div>
+        <h2>Domains</h2>
+        <div>
+          <h3>Intermediate</h3>
           <ul>
             <li>Java</li>
             <li>Python</li>
             <li>HTML</li>
             <li>English</li>
           </ul>
-        </li>
-        <li>
-          <h4>Basic</h4>
+        </div>
+        <div>
+          <h3>Basic</h3>
           <ul>
             <li>C/C++</li>
             <li>Javascript</li>
@@ -62,45 +66,62 @@
             <li>Office</li>
             <li>Spanish</li>
           </ul>
-        </li>
-      </ul>
+        </div>
+      </div>
       <hr />
-      <h2 id="my-projects">My Projects</h2>
-      <p>
-        Actually, I have two projects hosted in my GitHub's profile. One of
-        these projects was created to make sorting algorithms benchmark using
-        Java and Windows. The other one was created to contain my studies and
-        practices about webpages, based in my studies using HTML and CSS: desing
-        and build websites, written by Jon Duckeet.
-      </p>
-      <p>
-        If you want to see more about these projects, you can select one of
-        these links below to its respective project:
-      </p>
-      <ul>
-        <li>
-          <a
-            href="https://github.com/Tio-Joca/Trabalho-C2---Algoritmos-de-ordenacao"
-          >
-            Sorting benchmark
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/Tio-Joca/webpages-practices">
-            Webpages practices
-          </a>
-        </li>
-      </ul>
-      <hr />
+      <div>
+        <h2 id="my-projects">My projects</h2>
+        <p>
+          Actually, I have two projects hosted in my GitHub's profile. One of
+          these projects was created to make sorting algorithms benchmark using
+          Java and Windows. The other one was created to contain my studies and
+          practices about webpages, based in my studies using HTML and CSS:
+          desing and build websites, written by Jon Duckeet.
+        </p>
+        <p>
+          If you want to see more about these projects, you can select one of
+          these links below to its respective project:
+        </p>
+        <ul id="project-list">
+          <li>
+            <a
+              href="https://github.com/Tio-Joca/Trabalho-C2---Algoritmos-de-ordenacao"
+            >
+              Sorting benchmark
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Tio-Joca/webpages-practices">
+              Webpages practices
+            </a>
+          </li>
+        </ul>
+        <hr />
+      </div>
     </main>
-    <footer id="contact-me">
-      <a href="mailto:joaquim.pessoa@tutamail.com">E-mail</a>
-      <a href="https://github.com/Tio-Joca">GitHub</a>
-      <a
-        href="https://www.linkedin.com/in/joaquim-lucas-pessoa-da-silva-bb8485256"
-      >
-        LinkedIn
-      </a>
+    <footer>
+      <div id="contact-me">
+        <a href="mailto:joaquim.pessoa@tutamail.com">
+          <img
+            src="../images/email.png"
+            alt="Click here to send an e-mail for me."
+          />
+        </a>
+        <a href="https://github.com/Tio-Joca">
+          <img
+            src="../images/github.png"
+            alt="Click here to access my GitHub's profile."
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/joaquim-lucas-pessoa-da-silva-bb8485256"
+        >
+          <img
+            src="../images/linkedin.png"
+            alt="Click here to access my LinkedIn's profile."
+          />
+        </a>
+      </div>
       <a href="#top">Return to the top of the page</a>
     </footer>
   </body>
